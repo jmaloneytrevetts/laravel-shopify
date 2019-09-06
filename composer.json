@@ -7,6 +7,9 @@
         "shopify-api",
         "api"
     ],
+     "repositories": [
+        {"type": "vcs", "url": "https://github.com/jmaloneytrevetts/Basic-Shopify-API"}
+      ],
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -19,7 +22,7 @@
     "require": {
         "php": ">=7.1.0",
         "laravel/framework": "~5.6 | ^6.0",
-        "ohmybrew/basic-shopify-api": "^5.4",
+        "ohmybrew/basic-shopify-api": "dev-master as 5.4",
         "doctrine/dbal": "~2.5"
     },
     "require-dev": {
